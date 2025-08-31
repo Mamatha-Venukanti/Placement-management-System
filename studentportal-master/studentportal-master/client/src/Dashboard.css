@@ -1,0 +1,26 @@
+/* YourStyles.css */
+
+.custom-card-group {
+    display: flex;
+    gap: 20px; /* Adjust the gap between cards as needed */
+    justify-content: space-around; /* Center cards in the container */
+  }
+  
+  .custom-card {
+    width: 18rem; /* Adjust the width of the cards as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05); /* Scale up on hover for a subtle interactive effect */
+  }
+
+  .card-link {
+    display: block;
+    margin-top: 8px;
+    color: #3498db; /* Adjust the link color */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
